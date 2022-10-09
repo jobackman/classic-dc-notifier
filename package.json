@@ -1,0 +1,21 @@
+{
+  "name": "classic-dc-notifier",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/screenshot-desktop": "^1.12.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "node-tesseract-ocr": "^2.2.1",
+    "screenshot-desktop": "^1.12.7"
+  }
+}
